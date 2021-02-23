@@ -1,0 +1,15 @@
+C:\Users\localadmin\source\repos\SchoolAdministration\EntityFramework\bin\Debug\netcoreapp3.1\EntityFramework.deps.json
+C:\Users\localadmin\source\repos\SchoolAdministration\EntityFramework\bin\Debug\netcoreapp3.1\EntityFramework.runtimeconfig.json
+C:\Users\localadmin\source\repos\SchoolAdministration\EntityFramework\bin\Debug\netcoreapp3.1\EntityFramework.runtimeconfig.dev.json
+C:\Users\localadmin\source\repos\SchoolAdministration\EntityFramework\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\localadmin\source\repos\SchoolAdministration\EntityFramework\bin\Debug\netcoreapp3.1\EntityFramework.pdb
+C:\Users\localadmin\source\repos\SchoolAdministration\EntityFramework\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\localadmin\source\repos\SchoolAdministration\EntityFramework\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\localadmin\source\repos\SchoolAdministration\EntityFramework\obj\Debug\netcoreapp3.1\EntityFramework.csprojAssemblyReference.cache
+C:\Users\localadmin\source\repos\SchoolAdministration\EntityFramework\obj\Debug\netcoreapp3.1\EntityFramework.AssemblyInfoInputs.cache
+C:\Users\localadmin\source\repos\SchoolAdministration\EntityFramework\obj\Debug\netcoreapp3.1\EntityFramework.AssemblyInfo.cs
+C:\Users\localadmin\source\repos\SchoolAdministration\EntityFramework\obj\Debug\netcoreapp3.1\EntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\localadmin\source\repos\SchoolAdministration\EntityFramework\obj\Debug\netcoreapp3.1\EntityFramework.csproj.CopyComplete
+C:\Users\localadmin\source\repos\SchoolAdministration\EntityFramework\obj\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\localadmin\source\repos\SchoolAdministration\EntityFramework\obj\Debug\netcoreapp3.1\EntityFramework.pdb
+C:\Users\localadmin\source\repos\SchoolAdministration\EntityFramework\obj\Debug\netcoreapp3.1\EntityFramework.genruntimeconfig.cache
