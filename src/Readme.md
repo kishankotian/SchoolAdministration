@@ -7,26 +7,26 @@
 #Update SQL connectionstring in appsettings.json as per requirement.
 
 #Configured swagger for testing the API
-Running the code will open default url : https://localhost:44387/
-To open swagger UI append url with swagger as  https://localhost:44387/swagger
+Running the code will open default url : https://localhost:portnumber/
+To open swagger UI append url with swagger as  https://localhost:portnumber/swagger
 Swagger UI will list down all APIs along with request sample.
 
 #Below are the set of APIs for school administration
 1. API to register one or more students to a specified teacher
-		Endpoint: POST /api/register
+	Endpoint: POST /api/register
         Headers: Content-Type: application/json
         Success response status: HTTP 200
         Request body example:
         {
-          "teacher": "teacherken@gmail.com"
+          "teacher": "teacher1@gmail.com"
           "students":
             [
-              "studentjon@gmail.com",
-              "studenthon@gmail.com"
+              "student1@gmail.com",
+              "student2@gmail.com"
             ]
         }
 2. API to retrieve a list of students common to a given list of teachers
-		Endpoint: GET /api/commonstudents
+	Endpoint: GET /api/commonstudents
         Success response status: HTTP 200
         Request example 1: GET /api/commonstudents?teacher=teacher1%40gmail.com
         Success response body 1:
