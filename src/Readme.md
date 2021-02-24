@@ -3,6 +3,7 @@
 2. EntityFramework contain the DBcontext configuration for the application
 3. Service - Contain the main business logic for all the api
 4. SchoolAdministration - Main project where application setup and API routing configuration is done.
+5. SchoolAdministrationTest - Test project include unit test cases for all the APIs
 
 #Update SQL connectionstring in appsettings.json as per requirement.
 
@@ -57,3 +58,6 @@ Swagger UI will list down all APIs along with request sample.
       "teacher":  "teacher1@gmail.com",
       "notification": "Hello students! @student1s@gmail.com @student2@gmail.com"
     }
+
+#SchoolAdministrationTest - API Test
+Run all API test from VisualStudio -> TestExplorer
