@@ -42,6 +42,7 @@ namespace SchoolAdministration
             services.AddDbContext<SchoolDBContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddSwaggerConfig();
+            services.AddCors();
             services.AddControllers()
                 .ConfigureApiBehaviorOptions(options =>
                 {
@@ -68,7 +69,10 @@ namespace SchoolAdministration
                 app.UseDeveloperExceptionPage();
             }
             app.UseHttpsRedirection();
-
+            app.UseCors(x => x
+              .AllowAnyMethod()
+              .AllowAnyHeader()
+              .SetIsOriginAllowed(origin => true));
             app.UseRouting();
 
             app.UseAuthorization();

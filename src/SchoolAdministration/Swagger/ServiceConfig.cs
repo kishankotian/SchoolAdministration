@@ -1,6 +1,6 @@
-﻿using Data;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
+using Model;
 using SchoolAdministration.Helper;
 
 namespace SchoolAdministration.Swagger

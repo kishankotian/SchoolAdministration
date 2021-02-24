@@ -1,7 +1,7 @@
-﻿using Data.EntityModel;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
+using Model.EntityModel;
 using System.IO;
 
 namespace EntityFramework

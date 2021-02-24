@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\localadmin\\source\\repos\\GitHub\\SchoolAdministration\\src\\Data\\Data.csproj",
-      "projectName": "Data",
-      "projectPath": "C:\\Users\\localadmin\\source\\repos\\GitHub\\SchoolAdministration\\src\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\localadmin\\source\\repos\\GitHub\\SchoolAdministration\\src\\Data\\Model.csproj",
+      "projectName": "Model",
+      "projectPath": "C:\\Users\\localadmin\\source\\repos\\GitHub\\SchoolAdministration\\src\\Data\\Model.csproj",
       "packagesPath": "C:\\Users\\localadmin\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\localadmin\\source\\repos\\GitHub\\SchoolAdministration\\src\\Data\\obj\\",
       "projectStyle": "PackageReference",

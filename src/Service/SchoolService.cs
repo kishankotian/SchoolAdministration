@@ -1,6 +1,6 @@
-﻿using Data;
-using Data.EntityModel;
-using EntityFramework;
+﻿using EntityFramework;
+using Model;
+using Model.EntityModel;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -119,7 +119,7 @@ namespace Service
                         studentList = registeredStudents;
                     studentList = registeredStudents.Intersect(studentList);
                 }
-                return new StudentListModel { Students = studentList.Distinct() };
+                return new StudentListModel { Students = studentList.Distinct().ToList() };
             }
             catch(Exception ex)
             {

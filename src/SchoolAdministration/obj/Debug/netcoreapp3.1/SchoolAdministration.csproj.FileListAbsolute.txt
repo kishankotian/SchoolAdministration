@@ -144,12 +144,12 @@ C:\Users\localadmin\source\repos\GitHub\SchoolAdministration\src\SchoolAdministr
 C:\Users\localadmin\source\repos\GitHub\SchoolAdministration\src\SchoolAdministration\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\localadmin\source\repos\GitHub\SchoolAdministration\src\SchoolAdministration\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\localadmin\source\repos\GitHub\SchoolAdministration\src\SchoolAdministration\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\localadmin\source\repos\GitHub\SchoolAdministration\src\SchoolAdministration\bin\Debug\netcoreapp3.1\Data.dll
 C:\Users\localadmin\source\repos\GitHub\SchoolAdministration\src\SchoolAdministration\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\localadmin\source\repos\GitHub\SchoolAdministration\src\SchoolAdministration\bin\Debug\netcoreapp3.1\Model.dll
 C:\Users\localadmin\source\repos\GitHub\SchoolAdministration\src\SchoolAdministration\bin\Debug\netcoreapp3.1\Service.dll
 C:\Users\localadmin\source\repos\GitHub\SchoolAdministration\src\SchoolAdministration\bin\Debug\netcoreapp3.1\EntityFramework.pdb
 C:\Users\localadmin\source\repos\GitHub\SchoolAdministration\src\SchoolAdministration\bin\Debug\netcoreapp3.1\Service.pdb
-C:\Users\localadmin\source\repos\GitHub\SchoolAdministration\src\SchoolAdministration\bin\Debug\netcoreapp3.1\Data.pdb
+C:\Users\localadmin\source\repos\GitHub\SchoolAdministration\src\SchoolAdministration\bin\Debug\netcoreapp3.1\Model.pdb
 C:\Users\localadmin\source\repos\GitHub\SchoolAdministration\src\SchoolAdministration\obj\Debug\netcoreapp3.1\SchoolAdministration.csprojAssemblyReference.cache
 C:\Users\localadmin\source\repos\GitHub\SchoolAdministration\src\SchoolAdministration\obj\Debug\netcoreapp3.1\SchoolAdministration.AssemblyInfoInputs.cache
 C:\Users\localadmin\source\repos\GitHub\SchoolAdministration\src\SchoolAdministration\obj\Debug\netcoreapp3.1\SchoolAdministration.AssemblyInfo.cs

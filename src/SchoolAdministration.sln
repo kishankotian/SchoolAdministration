@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAdministration", "SchoolAdministration\SchoolAdministration.csproj", "{DC4153E0-A455-40DA-B193-E6FD43CA227D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolAdministration", "SchoolAdministration\SchoolAdministration.csproj", "{DC4153E0-A455-40DA-B193-E6FD43CA227D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework", "EntityFramework\EntityFramework.csproj", "{6A25F820-B866-420C-88F5-85D7AC44B962}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntityFramework", "EntityFramework\EntityFramework.csproj", "{6A25F820-B866-420C-88F5-85D7AC44B962}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{11E231FC-CD02-4D29-B548-6137F15F2EC1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{11E231FC-CD02-4D29-B548-6137F15F2EC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{300251E6-4724-4355-95EA-686B1177A9F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{300251E6-4724-4355-95EA-686B1177A9F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolAdministrationTest", "SchoolAdministrationTest\SchoolAdministrationTest.csproj", "{BA577E6F-CD8C-4F46-9203-3664057DE381}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{300251E6-4724-4355-95EA-686B1177A9F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{300251E6-4724-4355-95EA-686B1177A9F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{300251E6-4724-4355-95EA-686B1177A9F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA577E6F-CD8C-4F46-9203-3664057DE381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA577E6F-CD8C-4F46-9203-3664057DE381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA577E6F-CD8C-4F46-9203-3664057DE381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA577E6F-CD8C-4F46-9203-3664057DE381}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

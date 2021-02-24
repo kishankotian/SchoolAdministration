@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4ltMtPjEWyn4KA0kIk8YJXvd36pvKy9yKHyUho6pl2NzEjEeJGAbpDvFr77kaZal3O3SSZ6fCn4CTiEm0/Bz+Q==",
+  "dgSpecHash": "yilxoEvKRPCVuB7cQIxC3Z72Q2UNbzAQ4WP1oQ93WMhnTQ5Lo+7JBCAsYTAQo6Ds5PbsZIPoq9xhU1IQhF8yZg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\localadmin\\source\\repos\\GitHub\\SchoolAdministration\\src\\Data\\Data.csproj",
+  "projectFilePath": "C:\\Users\\localadmin\\source\\repos\\GitHub\\SchoolAdministration\\src\\Data\\Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
