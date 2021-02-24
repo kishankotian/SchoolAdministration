@@ -115,7 +115,7 @@ namespace Model {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to supended from school.
+        ///   Looks up a localized string similar to  supended from school.
         /// </summary>
         public static string StudentSuspended {
             get {

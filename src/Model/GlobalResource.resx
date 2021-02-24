@@ -136,7 +136,7 @@
     <value>Student record not found</value>
   </data>
   <data name="StudentSuspended" xml:space="preserve">
-    <value>supended from school</value>
+    <value> supended from school</value>
   </data>
   <data name="TeacherEmailNotExist" xml:space="preserve">
     <value>Teacher email do not exist in system</value>

@@ -48,9 +48,9 @@ namespace SchoolAdministrationTest
                 }
             };
             controller.HttpContext.Request.QueryString = new QueryString("?teacher=teacher1@gmail.com");
-            
+            string teacherEmail = "teacher1@gmail.com";
             //Act
-            var data = controller.Getcommonstudents();
+            var data = controller.Getcommonstudents(teacherEmail);
 
             //Assert
             Assert.IsType<OkObjectResult>(data);
@@ -68,9 +68,9 @@ namespace SchoolAdministrationTest
                 }
             };
             controller.HttpContext.Request.QueryString = new QueryString("?teacheremail=teacher1@gmail.com");
-
+            string teacherEmail = "teacher1@gmail.com";
             //Act
-            var data = controller.Getcommonstudents();
+            var data = controller.Getcommonstudents(teacherEmail);
 
             //Assert
             Assert.IsType<BadRequestResult>(data);
@@ -88,9 +88,9 @@ namespace SchoolAdministrationTest
                 }
             };
             controller.HttpContext.Request.QueryString = new QueryString("?teacher=teacher11@gmail.com");
-
+            string teacherEmail = "teacher11@gmail.com";
             //Act
-            var data = controller.Getcommonstudents();
+            var data = controller.Getcommonstudents(teacherEmail);
 
             //Assert
             Assert.IsType<NotFoundResult>(data);
@@ -108,9 +108,9 @@ namespace SchoolAdministrationTest
                 }
             };
             controller.HttpContext.Request.QueryString = new QueryString("?teacher=teacher1@gmail.com");
-
+            string teacherEmail = "teacher1@gmail.com";
             //Act
-            var data = controller.Getcommonstudents() as OkObjectResult;
+            var data = controller.Getcommonstudents(teacherEmail) as OkObjectResult;
             var result = data.Value as StudentListModel;
             var student = result.Students.FirstOrDefault(x=>x == "student1@gmail.com");
             //Assert
@@ -231,9 +231,9 @@ namespace SchoolAdministrationTest
             Assert.IsType<OkObjectResult>(data);
 
             controller.HttpContext.Request.QueryString = new QueryString("?teacher=teacher4@gmail.com");
-
+            string teacherEmail = "teacher4@gmail.com";
             //Act
-            var response = controller.Getcommonstudents() as OkObjectResult;
+            var response = controller.Getcommonstudents(teacherEmail) as OkObjectResult;
             var result = response.Value as StudentListModel;
             var student = result.Students.FirstOrDefault(x => x == "student12@gmail.com");
             //Assert

@@ -55,7 +55,7 @@ namespace SchoolAdministration.Controllers
         /// <returns>list of student email</returns>
         // GET api/commonstudents        
         [HttpGet("commonstudents")]
-        public IActionResult Getcommonstudents()
+        public IActionResult Getcommonstudents([FromQuery]string teacher)
         {
             try
             {
